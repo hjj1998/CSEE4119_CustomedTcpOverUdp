@@ -1,0 +1,91 @@
+[SEND - Time: 2021-12-12 00:52:29.210470 - source port: 40000 - dest port: 41192 - sequence number: 0 - ack number: 0 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 55431 - timeout interval: 1]
+[SEND - Time: 2021-12-12 00:52:29.210648 - source port: 40000 - dest port: 41192 - sequence number: 1 - ack number: 1 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 13316 - timeout interval: 1]
+[SEND - Time: 2021-12-12 00:52:29.210812 - source port: 40000 - dest port: 41192 - sequence number: 2 - ack number: 2 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 54733 - timeout interval: 1]
+One Segment Transmit Timeout! Double the timeout interval only if this is the first time in this transmission.
+[RESEND - Time: 2021-12-12 00:52:30.213732 - source port: 40000 - dest port: 41192 - sequence number: 0 - ack number: 0 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 55431 - timeout interval: 2]
+One Segment Transmit Timeout! Double the timeout interval only if this is the first time in this transmission.
+[RESEND - Time: 2021-12-12 00:52:30.214577 - source port: 40000 - dest port: 41192 - sequence number: 1 - ack number: 1 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 13316 - timeout interval: 2]
+One Segment Transmit Timeout! Double the timeout interval only if this is the first time in this transmission.
+[RESEND - Time: 2021-12-12 00:52:30.215053 - source port: 40000 - dest port: 41192 - sequence number: 2 - ack number: 2 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 54733 - timeout interval: 2]
+One Segment Transmit Timeout! Double the timeout interval only if this is the first time in this transmission.
+[RESEND - Time: 2021-12-12 00:52:32.217868 - source port: 40000 - dest port: 41192 - sequence number: 0 - ack number: 0 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 55431 - timeout interval: 4]
+One Segment Transmit Timeout! Double the timeout interval only if this is the first time in this transmission.
+[RESEND - Time: 2021-12-12 00:52:32.218413 - source port: 40000 - dest port: 41192 - sequence number: 1 - ack number: 1 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 13316 - timeout interval: 4]
+One Segment Transmit Timeout! Double the timeout interval only if this is the first time in this transmission.
+[RESEND - Time: 2021-12-12 00:52:32.218913 - source port: 40000 - dest port: 41192 - sequence number: 2 - ack number: 2 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 54733 - timeout interval: 4]
+Move window right by one step.
+[RECEIVE - Time: 2021-12-12 00:52:32.531070 - source port: 41194 - dest port: 40000 - sequence number: 0 - ack number: 1 - header length: 20 - ACK: 1 - FIN: 0 - window size: 1728 - checksum: 25417]
+[SEND - Time: 2021-12-12 00:52:32.531713 - source port: 40000 - dest port: 41192 - sequence number: 3 - ack number: 3 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 14975 - timeout interval: 4]
+Move window right by one step.
+[RECEIVE - Time: 2021-12-12 00:52:32.531777 - source port: 41194 - dest port: 40000 - sequence number: 1 - ack number: 2 - header length: 20 - ACK: 1 - FIN: 0 - window size: 1728 - checksum: 25415]
+[SEND - Time: 2021-12-12 00:52:32.532300 - source port: 40000 - dest port: 41192 - sequence number: 4 - ack number: 4 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 61032 - timeout interval: 4]
+Move window right by one step.
+[RECEIVE - Time: 2021-12-12 00:52:32.532349 - source port: 41194 - dest port: 40000 - sequence number: 2 - ack number: 3 - header length: 20 - ACK: 1 - FIN: 0 - window size: 1728 - checksum: 25413]
+[SEND - Time: 2021-12-12 00:52:32.532628 - source port: 40000 - dest port: 41192 - sequence number: 5 - ack number: 5 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 57800 - timeout interval: 4]
+Move window right by one step.
+Calculate timeout interval successfully.
+[RECEIVE - Time: 2021-12-12 00:52:32.847752 - source port: 41194 - dest port: 40000 - sequence number: 3 - ack number: 4 - header length: 20 - ACK: 1 - FIN: 0 - window size: 1728 - checksum: 25411]
+[SEND - Time: 2021-12-12 00:52:32.848535 - source port: 40000 - dest port: 41192 - sequence number: 6 - ack number: 6 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 323 - timeout interval: 0.31596803665161133]
+Move window right by one step.
+Calculate timeout interval successfully.
+[RECEIVE - Time: 2021-12-12 00:52:32.848984 - source port: 41194 - dest port: 40000 - sequence number: 4 - ack number: 5 - header length: 20 - ACK: 1 - FIN: 0 - window size: 1728 - checksum: 25409]
+[SEND - Time: 2021-12-12 00:52:32.849425 - source port: 40000 - dest port: 41192 - sequence number: 7 - ack number: 7 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 30726 - timeout interval: 0.3271439582109451]
+One Segment Transmit Timeout! Double the timeout interval only if this is the first time in this transmission.
+[RESEND - Time: 2021-12-12 00:52:33.179922 - source port: 40000 - dest port: 41192 - sequence number: 5 - ack number: 5 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 57800 - timeout interval: 0.6542879164218902]
+One Segment Transmit Timeout! Double the timeout interval only if this is the first time in this transmission.
+[RESEND - Time: 2021-12-12 00:52:33.180833 - source port: 40000 - dest port: 41192 - sequence number: 6 - ack number: 6 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 323 - timeout interval: 0.6542879164218902]
+One Segment Transmit Timeout! Double the timeout interval only if this is the first time in this transmission.
+[RESEND - Time: 2021-12-12 00:52:33.181101 - source port: 40000 - dest port: 41192 - sequence number: 7 - ack number: 7 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 30726 - timeout interval: 0.6542879164218902]
+Move window right by one step.
+[RECEIVE - Time: 2021-12-12 00:52:33.492204 - source port: 41194 - dest port: 40000 - sequence number: 5 - ack number: 6 - header length: 20 - ACK: 1 - FIN: 0 - window size: 1728 - checksum: 25407]
+[SEND - Time: 2021-12-12 00:52:33.493115 - source port: 40000 - dest port: 41192 - sequence number: 8 - ack number: 8 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 31387 - timeout interval: 0.6542879164218902]
+Move window right by one step.
+[RECEIVE - Time: 2021-12-12 00:52:33.493233 - source port: 41194 - dest port: 40000 - sequence number: 6 - ack number: 7 - header length: 20 - ACK: 1 - FIN: 0 - window size: 1728 - checksum: 25405]
+[SEND - Time: 2021-12-12 00:52:33.493888 - source port: 40000 - dest port: 41192 - sequence number: 9 - ack number: 9 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 13928 - timeout interval: 0.6542879164218902]
+Move window right by one step.
+[RECEIVE - Time: 2021-12-12 00:52:33.494023 - source port: 41194 - dest port: 40000 - sequence number: 7 - ack number: 8 - header length: 20 - ACK: 1 - FIN: 0 - window size: 1728 - checksum: 25403]
+[SEND - Time: 2021-12-12 00:52:33.494529 - source port: 40000 - dest port: 41192 - sequence number: 10 - ack number: 10 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 8640 - timeout interval: 0.6542879164218902]
+Move window right by one step.
+Calculate timeout interval successfully.
+[RECEIVE - Time: 2021-12-12 00:52:33.808802 - source port: 41194 - dest port: 40000 - sequence number: 8 - ack number: 9 - header length: 20 - ACK: 1 - FIN: 0 - window size: 1728 - checksum: 25401]
+[SEND - Time: 2021-12-12 00:52:33.810783 - source port: 40000 - dest port: 41192 - sequence number: 11 - ack number: 11 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 55727 - timeout interval: 0.33310164548456667]
+Move window right by one step.
+Calculate timeout interval successfully.
+[RECEIVE - Time: 2021-12-12 00:52:33.810889 - source port: 41194 - dest port: 40000 - sequence number: 9 - ack number: 10 - header length: 20 - ACK: 1 - FIN: 0 - window size: 1728 - checksum: 25399]
+[SEND - Time: 2021-12-12 00:52:33.812047 - source port: 40000 - dest port: 41192 - sequence number: 12 - ack number: 12 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 3748 - timeout interval: 0.33784396103583275]
+Move window right by one step.
+Calculate timeout interval successfully.
+[RECEIVE - Time: 2021-12-12 00:52:33.812346 - source port: 41194 - dest port: 40000 - sequence number: 10 - ack number: 11 - header length: 20 - ACK: 1 - FIN: 0 - window size: 1728 - checksum: 25397]
+[SEND - Time: 2021-12-12 00:52:33.813286 - source port: 40000 - dest port: 41192 - sequence number: 13 - ack number: 13 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 24348 - timeout interval: 0.3411316466808785]
+Move window right by one step.
+Calculate timeout interval successfully.
+[RECEIVE - Time: 2021-12-12 00:52:34.127805 - source port: 41194 - dest port: 40000 - sequence number: 11 - ack number: 12 - header length: 20 - ACK: 1 - FIN: 0 - window size: 1728 - checksum: 25395]
+[SEND - Time: 2021-12-12 00:52:34.128829 - source port: 40000 - dest port: 41192 - sequence number: 14 - ack number: 14 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 7636 - timeout interval: 0.3416774224511755]
+Move window right by one step.
+Calculate timeout interval successfully.
+[RECEIVE - Time: 2021-12-12 00:52:34.128955 - source port: 41194 - dest port: 40000 - sequence number: 12 - ack number: 13 - header length: 20 - ACK: 1 - FIN: 0 - window size: 1728 - checksum: 25393]
+[SEND - Time: 2021-12-12 00:52:34.129439 - source port: 40000 - dest port: 41192 - sequence number: 15 - ack number: 15 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 16170 - timeout interval: 0.3412276916952578]
+One Segment Transmit Timeout! Double the timeout interval only if this is the first time in this transmission.
+[RESEND - Time: 2021-12-12 00:52:34.473763 - source port: 40000 - dest port: 41192 - sequence number: 13 - ack number: 13 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 24348 - timeout interval: 0.6824553833905156]
+One Segment Transmit Timeout! Double the timeout interval only if this is the first time in this transmission.
+[RESEND - Time: 2021-12-12 00:52:34.474236 - source port: 40000 - dest port: 41192 - sequence number: 14 - ack number: 14 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 7636 - timeout interval: 0.6824553833905156]
+One Segment Transmit Timeout! Double the timeout interval only if this is the first time in this transmission.
+[RESEND - Time: 2021-12-12 00:52:34.474649 - source port: 40000 - dest port: 41192 - sequence number: 15 - ack number: 15 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 16170 - timeout interval: 0.6824553833905156]
+Move window right by one step.
+[RECEIVE - Time: 2021-12-12 00:52:34.789407 - source port: 41194 - dest port: 40000 - sequence number: 13 - ack number: 14 - header length: 20 - ACK: 1 - FIN: 0 - window size: 1728 - checksum: 25391]
+[SEND - Time: 2021-12-12 00:52:34.790401 - source port: 40000 - dest port: 41192 - sequence number: 16 - ack number: 16 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 504 - timeout interval: 0.6824553833905156]
+Move window right by one step.
+[RECEIVE - Time: 2021-12-12 00:52:34.790747 - source port: 41194 - dest port: 40000 - sequence number: 14 - ack number: 15 - header length: 20 - ACK: 1 - FIN: 0 - window size: 1728 - checksum: 25389]
+[SEND - Time: 2021-12-12 00:52:34.791504 - source port: 40000 - dest port: 41192 - sequence number: 17 - ack number: 17 - header length: 20 - ACK: 0 - FIN: 0 - window size: 1728 - checksum: 39200 - timeout interval: 0.6824553833905156]
+Move window right by one step.
+[RECEIVE - Time: 2021-12-12 00:52:34.791595 - source port: 41194 - dest port: 40000 - sequence number: 15 - ack number: 16 - header length: 20 - ACK: 1 - FIN: 0 - window size: 1728 - checksum: 25387]
+[SEND - Time: 2021-12-12 00:52:34.791935 - source port: 40000 - dest port: 41192 - sequence number: 18 - ack number: 18 - header length: 20 - ACK: 0 - FIN: 1 - window size: 1728 - checksum: 6687 - timeout interval: 0.6824553833905156]
+Move window right by one step.
+Calculate timeout interval successfully.
+[RECEIVE - Time: 2021-12-12 00:52:35.099502 - source port: 41194 - dest port: 40000 - sequence number: 16 - ack number: 17 - header length: 20 - ACK: 1 - FIN: 0 - window size: 1728 - checksum: 25385]
+Move window right by one step.
+Calculate timeout interval successfully.
+[RECEIVE - Time: 2021-12-12 00:52:35.100008 - source port: 41194 - dest port: 40000 - sequence number: 17 - ack number: 18 - header length: 20 - ACK: 1 - FIN: 0 - window size: 1728 - checksum: 25383]
+Move window right by one step.
+Calculate timeout interval successfully.
+[RECEIVE - Time: 2021-12-12 00:52:35.100571 - source port: 41194 - dest port: 40000 - sequence number: 18 - ack number: 19 - header length: 20 - ACK: 1 - FIN: 0 - window size: 1728 - checksum: 25381]
